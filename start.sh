@@ -7,5 +7,5 @@ sudo mkdir $CDIR $NDIR
 sudo mount $CFS $CDIR
 sudo mount $NFS $NDIR
 sudo rsync -xav --progress --exclude-from=exclude $CDIR $NDIR
-sudo umount $CFS $NEFS
+sudo umount $CFS $NFS
 sudo rm -r $CDIR $NDIR
