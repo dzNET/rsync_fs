@@ -1,7 +1,3 @@
 /etc/fstab
-/boot/grub/grub.conf
-/proc
-/sys
-/dev
-/mnt
-/media
+/mnt/*
+/media/*
